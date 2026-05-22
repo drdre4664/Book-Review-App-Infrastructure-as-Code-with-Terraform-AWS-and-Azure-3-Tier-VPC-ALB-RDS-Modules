@@ -1,6 +1,6 @@
 # Book Review App — Infrastructure as Code with Terraform (AWS & Azure, 3-Tier, VPC, ALB, RDS, Modules)
 
-> **Part 2 of 2 — Terraform Progression** · This repo demonstrates **multi-cloud modular design** (4 reusable modules, AWS↔Azure resource mapping, circular-dependency resolution). For the single-cloud AWS foundation this builds on, see [Terraform-AWS-3-Tier-Infrastructure-VPC-ALB-AutoScaling-RDS](https://github.com/drdre4664/Terraform-AWS-3-Tier-Infrastructure-VPC-ALB-AutoScaling-RDS).
+> **Part 2 of 2 — Terraform Progression** · This repo demonstrates **multi-cloud modular design** (4 reusable modules, AWS↔Azure resource mapping, circular-dependency resolution). For the single-cloud Azure foundation this builds on, see [Terraform-AWS-3-Tier-Infrastructure-VPC-ALB-AutoScaling-RDS](https://github.com/drdre4664/Terraform-AWS-3-Tier-Infrastructure-VPC-ALB-AutoScaling-RDS).
 
 Full infrastructure for a production-grade 3-tier deployment of the Book Review App, written entirely in Terraform for both AWS and Azure. The infrastructure is split into reusable modules — networking, database, load balancer, and compute — so each layer is independently manageable and clearly separated.
 
