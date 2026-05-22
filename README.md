@@ -227,7 +227,7 @@ Azure:
 
 ---
 
-## What I Learned
+## Design Principles
 
 **Modules make infrastructure readable** — the root `main.tf` reads like a blueprint with 4 clear layers. The details of how each is built live inside the module, not at the root.
 
